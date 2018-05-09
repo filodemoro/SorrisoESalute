@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medialNet_fragment_findMedicalNet_textView"
+        android:text="@string/medicalNet_fragment_findMedicalNet_textView"
+        android:layout_marginStart="5sp"
+        android:textSize="25sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginTop="5sp"/>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medicalNet_fragment_listRegion_listView"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:text="Regione scelta:"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/regioneScelta"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:layout_marginStart="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:text="Categoria scelta:"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/categoriaScelta"
+                android:textStyle="italic"
+                android:textSize="25sp"
+                android:layout_marginStart="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:text="Specialità scelta:"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/specialitaScelta"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:layout_marginStart="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medicalNet_fragment_button"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFF"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:text="@string/medicalNet_fragment_button"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

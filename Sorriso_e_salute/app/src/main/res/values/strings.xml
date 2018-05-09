@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sorriso e salute</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_activity_login_button">Login</string>
+    <string name="login_activity_username_editText">username</string>
+    <string name="login_activity_password_editText">password</string>
+
+    <string name="main_activity_profile_drawer">Profilo</string>
+    <string name="main_activity_medicalNet_drawer">Medici convenzionati</string>
+    <string name="main_activity_prevention_drawer">Prevenzione</string>
+    <string name="main_activity_speciality_drawer">Specialità</string>
+    <string name="main_activity_aboutUs_drawer">Chi siamo</string>
+    <string name="main_activity_logout_drawer">Logout</string>
+
+    <string name="medicalNet_fragment_findMedicalNet_textView">Scopri la nostra RETE SANITARIA</string>
+    <string name="medicalNet_fragment_listRegion_expandableListView">Seleziona una regione</string>
+    <string name="medicalNet_fragment_button">Mostra le strutture</string>
+
+
+    <string name="profile_fragment_name_textView">Nome:</string>
+    <string name="profile_fragment_surname_textView">Cognome:</string>
+    <string name="profile_fragment_fiscalCode_textView">Cod. Fiscale:</string>
+    <string name="profile_fragment_document_textView">Doc.:</string>
+    <string name="profile_fragment_bornDate_textView">Nato il:</string>
+    <string name="profile_fragment_address_textView">Residente in:</string>
+    <string name="profile_fragment_signingUp_textView">Iscritto il:</string>
+    <string name="profile_fragment_deadline_textView">Scade il:</string>
+    <string name="profile_fragment_lastRenewal_textView">Ult. rinnovo:</string>
+    <string name="profile_fragment_polizza_textView">Tipo polizza:</string>
+    <string name="login_activity_signUp_button">attiva codice</string>
+</resources>

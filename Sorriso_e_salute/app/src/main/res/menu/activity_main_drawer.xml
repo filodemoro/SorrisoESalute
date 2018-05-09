@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_activity_profile_drawer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/main_activity_profile_drawer" />
+        <item
+            android:id="@+id/main_activity_medicalNet_drawer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/main_activity_medicalNet_drawer" />
+        <item
+            android:id="@+id/main_activity_prevention_drawer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/main_activity_prevention_drawer" />
+        <item
+            android:id="@+id/main_activity_speciality_drawer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/main_activity_speciality_drawer" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/main_activity_aboutUs_drawer"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/main_activity_aboutUs_drawer" />
+            <item
+                android:id="@+id/main_activity_logout_drawer"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/main_activity_logout_drawer" />
+        </menu>
+    </item>
+
+</menu>

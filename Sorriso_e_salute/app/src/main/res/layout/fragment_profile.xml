@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<TableLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/profile_fragment_welcome_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benvenuto Enrico"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TableRow
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/profile_fragment_yourData_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:layout_weight="1"
+            android:text="I tuoi dati:"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"/>
+    </TableRow>
+
+
+    <TableRow
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/profile_fragment_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+             android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_name_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldName_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:background="#FFF"
+            android:text="Filippo"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_surname_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_surname_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldSurame_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="#FFF"
+            android:text="De Moro"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_fiscalCode_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_fiscalCode_textView"/>
+
+        <HorizontalScrollView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/profile_fragment_fieldFiscalCode_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+
+                android:maxLines="1"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+                android:textStyle="italic"
+                android:background="#FFF"
+                android:text="DMRFPP95A03D969F"/>
+
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_document_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_document_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldDocument_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_bornDate_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_bornDate_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldBornDate_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_address_textView"
+            android:layout_width="match_parent"
+            android:background="#FFF"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_address_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldAddress_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_signingUp_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_signingUp_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldSigningUp_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_deadLine_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_deadline_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldDeadLine_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_lastRenewal_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:background="#FFF"
+            android:textSize="30sp"
+            android:text="@string/profile_fragment_lastRenewal_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldLastRenewal_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/profile_fragment_polizza_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:text="@string/profile_fragment_polizza_textView"/>
+        <TextView
+            android:id="@+id/profile_fragment_fieldPolizza_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="2dp"
+            android:background="#FFF"
+            android:text="ok"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>
+</ScrollView>

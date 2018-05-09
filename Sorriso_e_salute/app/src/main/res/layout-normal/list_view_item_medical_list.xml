@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="itemStructure"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/medicalList_activity_itemStructure_textView"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="itemCity"
+                android:textSize="20sp"
+                android:id="@+id/medicalList_activity_itemCity_textView"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="    |    "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="itemAddress"
+                android:textSize="20sp"
+                android:id="@+id/medicalList_activity_itemAddress_textView"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>
